@@ -1,0 +1,24 @@
+{
+  "name": "warlock-config",
+  "version": "1.0.0",
+  "description": "Config for eslint, prettier, husky and lint-staged.",
+  "main": "index.js",
+  "author": "Kaemon Lovendahl",
+  "license": "MIT",
+  "private": false,
+  "bin": {
+    "warlock-config-setup": "./bin/setup.sh"
+  },
+  "keywords": [
+    "prettier",
+    "husky",
+    "lint-staged",
+    "config",
+    "shareable"
+  ],
+  "dependencies": {
+    "husky": "^3.1.0",
+    "lint-staged": "^9.5.0",
+    "prettier": "^1.19.1"
+  }
+}
