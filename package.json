@@ -1,6 +1,6 @@
 {
   "name": "warlock-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Config for eslint, prettier, husky and lint-staged.",
   "main": "index.js",
   "author": "Kaemon Lovendahl",

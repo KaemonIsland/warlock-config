@@ -26,7 +26,7 @@ dependencies:
 
 For eslint, simply add `"warlock"` to the extends field.
 
-Husky and Lint-staged config files must be able to import objects. Really just make sure that you import them from `./node_modules/eslint-config-warlock/husky` and `./node_modules/eslint-config-warlock/lintstaged`.
+Husky and Lint-staged config files must be able to import objects. Really just make sure that you import them from `warlock-config/husky` and `warlock-config/lintstaged`.
 
 ## Prettier Rules
 
