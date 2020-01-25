@@ -3,3 +3,5 @@
 [ ! -f .lintstagedrc.js ] && touch .lintstagedrc.js && echo "module.exports = require('warlock-config/lintstaged')" >> .lintstagedrc.js
 
 [ ! -f .prettierrc.js ] && touch .prettierrc.js && echo "module.exports = require('warlock-config/prettier')" >> .prettierrc.js
+
+[ ! -f .eslintrc ] && touch .eslintrc && echo "{\n 'extends': ['warlock']\n}" >> .eslintrc
