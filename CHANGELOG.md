@@ -1,5 +1,9 @@
 # Change Log
 
+## v1.2.0
+
+Add eslint-config-warlock-typescript package for TypeScript linting
+
 ## v1.1.0
 
 Add script that creates an `.eslintrc` if one does not exist already.

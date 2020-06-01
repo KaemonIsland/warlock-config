@@ -1,6 +1,6 @@
 {
   "name": "warlock-config",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Config for eslint, prettier, husky and lint-staged.",
   "main": "index.js",
   "author": "Kaemon Lovendahl",
@@ -17,7 +17,8 @@
     "shareable"
   ],
   "dependencies": {
-    "eslint-config-warlock": "^2.0.0",
+    "eslint-config-warlock": "^2.0.1",
+    "eslint-config-warlock-typescript": "^2.0.0",
     "husky": "^3.1.0",
     "lint-staged": "^9.5.0",
     "prettier": "^1.19.1"
